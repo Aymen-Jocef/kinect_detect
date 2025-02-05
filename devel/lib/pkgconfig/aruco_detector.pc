@@ -1,0 +1,8 @@
+prefix=/home/jalil/catkin_ws3/devel
+
+Name: aruco_detector
+Description: Description of aruco_detector
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: cv_bridge image_transport rospy sensor_msgs std_msgs
