@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "aruco_image"
-PROJECT_SPACE_DIR = "/home/jalil/catkin_ws3/install"
+PROJECT_SPACE_DIR = "/root/kinect_for_eurobot/install"
 PROJECT_VERSION = "0.0.0"

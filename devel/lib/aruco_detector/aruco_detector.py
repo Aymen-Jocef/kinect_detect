@@ -3,7 +3,7 @@
 # generated from catkin/cmake/template/script.py.in
 # creates a relay to a python script source file, acting as that file.
 # The purpose is that of a symlink
-python_script = '/home/jalil/catkin_ws3/src/aruco_detector/scripts/aruco_detector.py'
+python_script = '/root/kinect_for_eurobot/src/aruco_detector/scripts/aruco_detector.py'
 with open(python_script, 'r') as fh:
     context = {
         '__builtins__': __builtins__,

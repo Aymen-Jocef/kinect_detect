@@ -1,8 +1,8 @@
-# Install script for directory: /home/jalil/catkin_ws3/src/freenect_stack/freenect_stack
+# Install script for directory: /root/kinect_for_eurobot/src/freenect_stack/freenect_stack
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,6 +38,6 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_stack" TYPE FILE FILES "/home/jalil/catkin_ws3/src/freenect_stack/freenect_stack/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_stack" TYPE FILE FILES "/root/kinect_for_eurobot/src/freenect_stack/freenect_stack/package.xml")
 endif()
 

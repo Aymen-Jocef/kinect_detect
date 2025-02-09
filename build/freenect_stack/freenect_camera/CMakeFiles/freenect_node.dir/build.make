@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jalil/catkin_ws3/src
+CMAKE_SOURCE_DIR = /root/kinect_for_eurobot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jalil/catkin_ws3/build
+CMAKE_BINARY_DIR = /root/kinect_for_eurobot/build
 
 # Include any dependencies generated for this target.
 include freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/depend.make
@@ -58,17 +58,17 @@ include freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/progress.mak
 include freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/flags.make
 
 freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o: freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/flags.make
-freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o: /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jalil/catkin_ws3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o"
-	cd /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o -c /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
+freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o: /root/kinect_for_eurobot/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/kinect_for_eurobot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o"
+	cd /root/kinect_for_eurobot/build/freenect_stack/freenect_camera && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o -c /root/kinect_for_eurobot/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
 
 freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i"
-	cd /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp > CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i
+	cd /root/kinect_for_eurobot/build/freenect_stack/freenect_camera && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/kinect_for_eurobot/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp > CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.i
 
 freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s"
-	cd /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s
+	cd /root/kinect_for_eurobot/build/freenect_stack/freenect_camera && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/kinect_for_eurobot/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp -o CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.s
 
 # Object files for target freenect_node
 freenect_node_OBJECTS = \
@@ -77,57 +77,57 @@ freenect_node_OBJECTS = \
 # External object files for target freenect_node
 freenect_node_EXTERNAL_OBJECTS =
 
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/build.make
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libcamera_info_manager.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libcamera_calibration_parsers.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libdiagnostic_updater.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libimage_transport.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libmessage_filters.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libnodeletlib.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libbondcpp.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libuuid.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libroscpp.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libxmlrpcpp.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libroscpp_serialization.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libclass_loader.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librosconsole.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librostime.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libcpp_common.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libroslib.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librospack.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: /usr/local/lib/libfreenect.so
-/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node: freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jalil/catkin_ws3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node"
-	cd /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freenect_node.dir/link.txt --verbose=$(VERBOSE)
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/build.make
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libcamera_info_manager.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libcamera_calibration_parsers.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libdiagnostic_updater.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libimage_transport.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libmessage_filters.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libnodeletlib.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libbondcpp.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libuuid.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libroscpp.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.71.0
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libxmlrpcpp.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libroscpp_serialization.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libclass_loader.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libPocoFoundation.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librosconsole.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librosconsole_log4cxx.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librosconsole_backend_interface.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librostime.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libcpp_common.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so.1.71.0
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/libroslib.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /opt/ros/noetic/lib/librospack.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.71.0
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: /usr/lib/x86_64-linux-gnu/libfreenect.so
+/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node: freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/kinect_for_eurobot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node"
+	cd /root/kinect_for_eurobot/build/freenect_stack/freenect_camera && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/freenect_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/build: /home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node
+freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/build: /root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node
 
 .PHONY : freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/build
 
 freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/clean:
-	cd /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera && $(CMAKE_COMMAND) -P CMakeFiles/freenect_node.dir/cmake_clean.cmake
+	cd /root/kinect_for_eurobot/build/freenect_stack/freenect_camera && $(CMAKE_COMMAND) -P CMakeFiles/freenect_node.dir/cmake_clean.cmake
 .PHONY : freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/clean
 
 freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/depend:
-	cd /home/jalil/catkin_ws3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jalil/catkin_ws3/src /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera /home/jalil/catkin_ws3/build /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/kinect_for_eurobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/kinect_for_eurobot/src /root/kinect_for_eurobot/src/freenect_stack/freenect_camera /root/kinect_for_eurobot/build /root/kinect_for_eurobot/build/freenect_stack/freenect_camera /root/kinect_for_eurobot/build/freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : freenect_stack/freenect_camera/CMakeFiles/freenect_node.dir/depend
 

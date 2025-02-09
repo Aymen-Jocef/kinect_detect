@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jalil/catkin_ws3/devel/lib/libfreenect_nodelet.pdb"
-  "/home/jalil/catkin_ws3/devel/lib/libfreenect_nodelet.so"
+  "/root/kinect_for_eurobot/devel/lib/libfreenect_nodelet.pdb"
+  "/root/kinect_for_eurobot/devel/lib/libfreenect_nodelet.so"
   "CMakeFiles/freenect_nodelet.dir/src/nodelets/driver.cpp.o"
 )
 

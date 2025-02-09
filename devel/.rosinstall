@@ -1,2 +1,2 @@
 - setup-file:
-    local-name: /home/jalil/catkin_ws3/devel/setup.sh
+    local-name: /root/kinect_for_eurobot/devel/setup.sh

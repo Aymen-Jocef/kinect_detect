@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

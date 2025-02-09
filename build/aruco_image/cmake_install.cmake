@@ -1,8 +1,8 @@
-# Install script for directory: /home/jalil/catkin_ws3/src/aruco_image
+# Install script for directory: /root/kinect_for_eurobot/src/aruco_image
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,36 +38,36 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jalil/catkin_ws3/build/aruco_image/catkin_generated/installspace/aruco_image.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/kinect_for_eurobot/build/aruco_image/catkin_generated/installspace/aruco_image.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_image/cmake" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/aruco_image/catkin_generated/installspace/aruco_imageConfig.cmake"
-    "/home/jalil/catkin_ws3/build/aruco_image/catkin_generated/installspace/aruco_imageConfig-version.cmake"
+    "/root/kinect_for_eurobot/build/aruco_image/catkin_generated/installspace/aruco_imageConfig.cmake"
+    "/root/kinect_for_eurobot/build/aruco_image/catkin_generated/installspace/aruco_imageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_image" TYPE FILE FILES "/home/jalil/catkin_ws3/src/aruco_image/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_image" TYPE FILE FILES "/root/kinect_for_eurobot/src/aruco_image/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jalil/catkin_ws3/build/aruco_image/catkin_generated/installspace/aruco_image.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/kinect_for_eurobot/build/aruco_image/catkin_generated/installspace/aruco_image.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_image/cmake" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/aruco_image/catkin_generated/installspace/aruco_imageConfig.cmake"
-    "/home/jalil/catkin_ws3/build/aruco_image/catkin_generated/installspace/aruco_imageConfig-version.cmake"
+    "/root/kinect_for_eurobot/build/aruco_image/catkin_generated/installspace/aruco_imageConfig.cmake"
+    "/root/kinect_for_eurobot/build/aruco_image/catkin_generated/installspace/aruco_imageConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_image" TYPE FILE FILES "/home/jalil/catkin_ws3/src/aruco_image/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_image" TYPE FILE FILES "/root/kinect_for_eurobot/src/aruco_image/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/aruco_image" TYPE PROGRAM FILES "/home/jalil/catkin_ws3/build/aruco_image/catkin_generated/installspace/image_capture.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/aruco_image" TYPE PROGRAM FILES "/root/kinect_for_eurobot/build/aruco_image/catkin_generated/installspace/image_capture.py")
 endif()
 

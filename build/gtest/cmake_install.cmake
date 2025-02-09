@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jalil/catkin_ws3/build/gtest/googlemock/cmake_install.cmake")
+  include("/root/kinect_for_eurobot/build/gtest/googlemock/cmake_install.cmake")
 
 endif()
 

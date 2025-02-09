@@ -1,8 +1,8 @@
-# Install script for directory: /home/jalil/catkin_ws3/src/freenect_stack/freenect_launch
+# Install script for directory: /root/kinect_for_eurobot/src/freenect_stack/freenect_launch
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jalil/catkin_ws3/build/freenect_stack/freenect_launch/catkin_generated/installspace/freenect_launch.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/kinect_for_eurobot/build/freenect_stack/freenect_launch/catkin_generated/installspace/freenect_launch.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_launch/cmake" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/freenect_stack/freenect_launch/catkin_generated/installspace/freenect_launchConfig.cmake"
-    "/home/jalil/catkin_ws3/build/freenect_stack/freenect_launch/catkin_generated/installspace/freenect_launchConfig-version.cmake"
+    "/root/kinect_for_eurobot/build/freenect_stack/freenect_launch/catkin_generated/installspace/freenect_launchConfig.cmake"
+    "/root/kinect_for_eurobot/build/freenect_stack/freenect_launch/catkin_generated/installspace/freenect_launchConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_launch" TYPE FILE FILES "/home/jalil/catkin_ws3/src/freenect_stack/freenect_launch/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_launch" TYPE FILE FILES "/root/kinect_for_eurobot/src/freenect_stack/freenect_launch/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_launch/launch" TYPE DIRECTORY FILES "/home/jalil/catkin_ws3/src/freenect_stack/freenect_launch/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_launch/launch" TYPE DIRECTORY FILES "/root/kinect_for_eurobot/src/freenect_stack/freenect_launch/launch/")
 endif()
 

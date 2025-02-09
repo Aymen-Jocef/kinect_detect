@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/jalil/catkin_ws3/src
-# Build directory: /home/jalil/catkin_ws3/build
+# Source directory: /root/kinect_for_eurobot/src
+# Build directory: /root/kinect_for_eurobot/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

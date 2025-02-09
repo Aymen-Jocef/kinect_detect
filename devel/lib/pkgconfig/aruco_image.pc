@@ -1,4 +1,4 @@
-prefix=/home/jalil/catkin_ws3/devel
+prefix=/root/kinect_for_eurobot/devel
 
 Name: aruco_image
 Description: Description of aruco_image

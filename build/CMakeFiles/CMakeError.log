@@ -1,21 +1,21 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
-Change Dir: /home/jalil/catkin_ws3/build/CMakeFiles/CMakeTmp
+Change Dir: /root/kinect_for_eurobot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_bcbbe/fast && /usr/bin/make -f CMakeFiles/cmTC_bcbbe.dir/build.make CMakeFiles/cmTC_bcbbe.dir/build
-make[1]: Entering directory '/home/jalil/catkin_ws3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bcbbe.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_bcbbe.dir/src.c.o   -c /home/jalil/catkin_ws3/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_bcbbe
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bcbbe.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_bcbbe.dir/src.c.o  -o cmTC_bcbbe 
-/usr/bin/ld: CMakeFiles/cmTC_bcbbe.dir/src.c.o: in function `main':
+Run Build Command(s):/usr/bin/make cmTC_dab2a/fast && /usr/bin/make -f CMakeFiles/cmTC_dab2a.dir/build.make CMakeFiles/cmTC_dab2a.dir/build
+make[1]: Entering directory '/root/kinect_for_eurobot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dab2a.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_dab2a.dir/src.c.o   -c /root/kinect_for_eurobot/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_dab2a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dab2a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    -rdynamic CMakeFiles/cmTC_dab2a.dir/src.c.o  -o cmTC_dab2a 
+/usr/bin/ld: CMakeFiles/cmTC_dab2a.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_bcbbe.dir/build.make:87: cmTC_bcbbe] Error 1
-make[1]: Leaving directory '/home/jalil/catkin_ws3/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_bcbbe/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_dab2a.dir/build.make:87: cmTC_dab2a] Error 1
+make[1]: Leaving directory '/root/kinect_for_eurobot/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_dab2a/fast] Error 2
 
 
 Source file was:
@@ -39,20 +39,20 @@ int main(void)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/jalil/catkin_ws3/build/CMakeFiles/CMakeTmp
+Change Dir: /root/kinect_for_eurobot/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_465e9/fast && /usr/bin/make -f CMakeFiles/cmTC_465e9.dir/build.make CMakeFiles/cmTC_465e9.dir/build
-make[1]: Entering directory '/home/jalil/catkin_ws3/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_465e9.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_465e9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_465e9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_465e9.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_465e9.dir/CheckFunctionExists.c.o  -o cmTC_465e9  -lpthreads 
+Run Build Command(s):/usr/bin/make cmTC_7d36c/fast && /usr/bin/make -f CMakeFiles/cmTC_7d36c.dir/build.make CMakeFiles/cmTC_7d36c.dir/build
+make[1]: Entering directory '/root/kinect_for_eurobot/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d36c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7d36c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d36c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d36c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_7d36c.dir/CheckFunctionExists.c.o  -o cmTC_7d36c  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_465e9.dir/build.make:87: cmTC_465e9] Error 1
-make[1]: Leaving directory '/home/jalil/catkin_ws3/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_465e9/fast] Error 2
+make[1]: *** [CMakeFiles/cmTC_7d36c.dir/build.make:87: cmTC_7d36c] Error 1
+make[1]: Leaving directory '/root/kinect_for_eurobot/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_7d36c/fast] Error 2
 
 
 

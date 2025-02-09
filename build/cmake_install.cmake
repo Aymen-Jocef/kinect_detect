@@ -1,8 +1,8 @@
-# Install script for directory: /home/jalil/catkin_ws3/src
+# Install script for directory: /root/kinect_for_eurobot/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,93 +49,93 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jalil/catkin_ws3/install/_setup_util.py")
+   "/root/kinect_for_eurobot/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jalil/catkin_ws3/install" TYPE PROGRAM FILES "/home/jalil/catkin_ws3/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/root/kinect_for_eurobot/install" TYPE PROGRAM FILES "/root/kinect_for_eurobot/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jalil/catkin_ws3/install/env.sh")
+   "/root/kinect_for_eurobot/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jalil/catkin_ws3/install" TYPE PROGRAM FILES "/home/jalil/catkin_ws3/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/root/kinect_for_eurobot/install" TYPE PROGRAM FILES "/root/kinect_for_eurobot/build/catkin_generated/installspace/env.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jalil/catkin_ws3/install/setup.bash;/home/jalil/catkin_ws3/install/local_setup.bash")
+   "/root/kinect_for_eurobot/install/setup.bash;/root/kinect_for_eurobot/install/local_setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jalil/catkin_ws3/install" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/catkin_generated/installspace/setup.bash"
-    "/home/jalil/catkin_ws3/build/catkin_generated/installspace/local_setup.bash"
+file(INSTALL DESTINATION "/root/kinect_for_eurobot/install" TYPE FILE FILES
+    "/root/kinect_for_eurobot/build/catkin_generated/installspace/setup.bash"
+    "/root/kinect_for_eurobot/build/catkin_generated/installspace/local_setup.bash"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jalil/catkin_ws3/install/setup.sh;/home/jalil/catkin_ws3/install/local_setup.sh")
+   "/root/kinect_for_eurobot/install/setup.sh;/root/kinect_for_eurobot/install/local_setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jalil/catkin_ws3/install" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/catkin_generated/installspace/setup.sh"
-    "/home/jalil/catkin_ws3/build/catkin_generated/installspace/local_setup.sh"
+file(INSTALL DESTINATION "/root/kinect_for_eurobot/install" TYPE FILE FILES
+    "/root/kinect_for_eurobot/build/catkin_generated/installspace/setup.sh"
+    "/root/kinect_for_eurobot/build/catkin_generated/installspace/local_setup.sh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jalil/catkin_ws3/install/setup.zsh;/home/jalil/catkin_ws3/install/local_setup.zsh")
+   "/root/kinect_for_eurobot/install/setup.zsh;/root/kinect_for_eurobot/install/local_setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jalil/catkin_ws3/install" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/catkin_generated/installspace/setup.zsh"
-    "/home/jalil/catkin_ws3/build/catkin_generated/installspace/local_setup.zsh"
+file(INSTALL DESTINATION "/root/kinect_for_eurobot/install" TYPE FILE FILES
+    "/root/kinect_for_eurobot/build/catkin_generated/installspace/setup.zsh"
+    "/root/kinect_for_eurobot/build/catkin_generated/installspace/local_setup.zsh"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/jalil/catkin_ws3/install/.rosinstall")
+   "/root/kinect_for_eurobot/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/jalil/catkin_ws3/install" TYPE FILE FILES "/home/jalil/catkin_ws3/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/root/kinect_for_eurobot/install" TYPE FILE FILES "/root/kinect_for_eurobot/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jalil/catkin_ws3/build/gtest/cmake_install.cmake")
-  include("/home/jalil/catkin_ws3/build/freenect_stack/freenect_launch/cmake_install.cmake")
-  include("/home/jalil/catkin_ws3/build/freenect_stack/freenect_stack/cmake_install.cmake")
-  include("/home/jalil/catkin_ws3/build/aruco_detector/cmake_install.cmake")
-  include("/home/jalil/catkin_ws3/build/aruco_image/cmake_install.cmake")
-  include("/home/jalil/catkin_ws3/build/freenect_stack/freenect_camera/cmake_install.cmake")
+  include("/root/kinect_for_eurobot/build/gtest/cmake_install.cmake")
+  include("/root/kinect_for_eurobot/build/freenect_stack/freenect_launch/cmake_install.cmake")
+  include("/root/kinect_for_eurobot/build/freenect_stack/freenect_stack/cmake_install.cmake")
+  include("/root/kinect_for_eurobot/build/aruco_detector/cmake_install.cmake")
+  include("/root/kinect_for_eurobot/build/aruco_image/cmake_install.cmake")
+  include("/root/kinect_for_eurobot/build/freenect_stack/freenect_camera/cmake_install.cmake")
 
 endif()
 
@@ -147,5 +147,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jalil/catkin_ws3/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/root/kinect_for_eurobot/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

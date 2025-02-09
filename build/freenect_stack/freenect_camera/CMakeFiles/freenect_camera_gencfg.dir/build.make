@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jalil/catkin_ws3/src
+CMAKE_SOURCE_DIR = /root/kinect_for_eurobot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jalil/catkin_ws3/build
+CMAKE_BINARY_DIR = /root/kinect_for_eurobot/build
 
 # Utility rule file for freenect_camera_gencfg.
 
 # Include the progress variables for this target.
 include freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/progress.make
 
-freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg: /home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h
-freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg: /home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py
+freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg: /root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h
+freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg: /root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py
 
 
-/home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h: /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/cfg/Freenect.cfg
-/home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jalil/catkin_ws3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Freenect.cfg: /home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h /home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py"
-	cd /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera && ../../catkin_generated/env_cached.sh /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera/setup_custom_pythonpath.sh /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/cfg/Freenect.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /home/jalil/catkin_ws3/devel/share/freenect_camera /home/jalil/catkin_ws3/devel/include/freenect_camera /home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera
+/root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h: /root/kinect_for_eurobot/src/freenect_stack/freenect_camera/cfg/Freenect.cfg
+/root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h: /opt/ros/noetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/root/kinect_for_eurobot/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/Freenect.cfg: /root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h /root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py"
+	cd /root/kinect_for_eurobot/build/freenect_stack/freenect_camera && ../../catkin_generated/env_cached.sh /usr/bin/python3 /root/kinect_for_eurobot/src/freenect_stack/freenect_camera/cfg/Freenect.cfg /opt/ros/noetic/share/dynamic_reconfigure/cmake/.. /root/kinect_for_eurobot/devel/share/freenect_camera /root/kinect_for_eurobot/devel/include/freenect_camera /root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera
 
-/home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig.dox: /home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig.dox
+/root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig.dox: /root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig.dox
 
-/home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig-usage.dox: /home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig-usage.dox
+/root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig-usage.dox: /root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig-usage.dox
 
-/home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py: /home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py
+/root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py: /root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py
 
-/home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig.wikidoc: /home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig.wikidoc
+/root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig.wikidoc: /root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig.wikidoc
 
 freenect_camera_gencfg: freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg
-freenect_camera_gencfg: /home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h
-freenect_camera_gencfg: /home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig.dox
-freenect_camera_gencfg: /home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig-usage.dox
-freenect_camera_gencfg: /home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py
-freenect_camera_gencfg: /home/jalil/catkin_ws3/devel/share/freenect_camera/docs/FreenectConfig.wikidoc
+freenect_camera_gencfg: /root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h
+freenect_camera_gencfg: /root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig.dox
+freenect_camera_gencfg: /root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig-usage.dox
+freenect_camera_gencfg: /root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/cfg/FreenectConfig.py
+freenect_camera_gencfg: /root/kinect_for_eurobot/devel/share/freenect_camera/docs/FreenectConfig.wikidoc
 freenect_camera_gencfg: freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/build.make
 
 .PHONY : freenect_camera_gencfg
@@ -91,10 +91,10 @@ freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/build: free
 .PHONY : freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/build
 
 freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/clean:
-	cd /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera && $(CMAKE_COMMAND) -P CMakeFiles/freenect_camera_gencfg.dir/cmake_clean.cmake
+	cd /root/kinect_for_eurobot/build/freenect_stack/freenect_camera && $(CMAKE_COMMAND) -P CMakeFiles/freenect_camera_gencfg.dir/cmake_clean.cmake
 .PHONY : freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/clean
 
 freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/depend:
-	cd /home/jalil/catkin_ws3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jalil/catkin_ws3/src /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera /home/jalil/catkin_ws3/build /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera /home/jalil/catkin_ws3/build/freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/kinect_for_eurobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/kinect_for_eurobot/src /root/kinect_for_eurobot/src/freenect_stack/freenect_camera /root/kinect_for_eurobot/build /root/kinect_for_eurobot/build/freenect_stack/freenect_camera /root/kinect_for_eurobot/build/freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : freenect_stack/freenect_camera/CMakeFiles/freenect_camera_gencfg.dir/depend
 

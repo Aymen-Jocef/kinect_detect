@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jalil/catkin_ws3/src
+CMAKE_SOURCE_DIR = /root/kinect_for_eurobot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jalil/catkin_ws3/build
+CMAKE_BINARY_DIR = /root/kinect_for_eurobot/build
 
 # Utility rule file for sensor_msgs_generate_messages_cpp.
 
@@ -63,10 +63,10 @@ aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build: sensor_ms
 .PHONY : aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/build
 
 aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean:
-	cd /home/jalil/catkin_ws3/build/aruco_detector && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /root/kinect_for_eurobot/build/aruco_detector && $(CMAKE_COMMAND) -P CMakeFiles/sensor_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/clean
 
 aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend:
-	cd /home/jalil/catkin_ws3/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jalil/catkin_ws3/src /home/jalil/catkin_ws3/src/aruco_detector /home/jalil/catkin_ws3/build /home/jalil/catkin_ws3/build/aruco_detector /home/jalil/catkin_ws3/build/aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/kinect_for_eurobot/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/kinect_for_eurobot/src /root/kinect_for_eurobot/src/aruco_detector /root/kinect_for_eurobot/build /root/kinect_for_eurobot/build/aruco_detector /root/kinect_for_eurobot/build/aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : aruco_detector/CMakeFiles/sensor_msgs_generate_messages_cpp.dir/depend
 

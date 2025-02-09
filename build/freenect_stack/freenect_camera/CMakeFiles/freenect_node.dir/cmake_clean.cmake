@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node"
-  "/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node.pdb"
+  "/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node"
+  "/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node.pdb"
   "CMakeFiles/freenect_node.dir/src/nodes/freenect_node.cpp.o"
 )
 

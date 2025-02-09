@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jalil/catkin_ws3/src
+CMAKE_SOURCE_DIR = /root/kinect_for_eurobot/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jalil/catkin_ws3/build
+CMAKE_BINARY_DIR = /root/kinect_for_eurobot/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,14 +137,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jalil/catkin_ws3/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/jalil/catkin_ws3/build/CMakeFiles /home/jalil/catkin_ws3/build/freenect_stack/freenect_launch/CMakeFiles/progress.marks
-	cd /home/jalil/catkin_ws3/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jalil/catkin_ws3/build/CMakeFiles 0
+	cd /root/kinect_for_eurobot/build && $(CMAKE_COMMAND) -E cmake_progress_start /root/kinect_for_eurobot/build/CMakeFiles /root/kinect_for_eurobot/build/freenect_stack/freenect_launch/CMakeFiles/progress.marks
+	cd /root/kinect_for_eurobot/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /root/kinect_for_eurobot/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jalil/catkin_ws3/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/clean
+	cd /root/kinect_for_eurobot/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/clean
 .PHONY : clean
 
 # The main clean target
@@ -154,22 +154,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jalil/catkin_ws3/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/preinstall
+	cd /root/kinect_for_eurobot/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jalil/catkin_ws3/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/preinstall
+	cd /root/kinect_for_eurobot/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jalil/catkin_ws3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /root/kinect_for_eurobot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule:
-	cd /home/jalil/catkin_ws3/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
+	cd /root/kinect_for_eurobot/build && $(MAKE) -f CMakeFiles/Makefile2 freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 .PHONY : freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ _catkin_empty_exported_target: freenect_stack/freenect_launch/CMakeFiles/_catkin
 
 # fast build rule for target.
 _catkin_empty_exported_target/fast:
-	cd /home/jalil/catkin_ws3/build && $(MAKE) -f freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
+	cd /root/kinect_for_eurobot/build && $(MAKE) -f freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/build.make freenect_stack/freenect_launch/CMakeFiles/_catkin_empty_exported_target.dir/build
 .PHONY : _catkin_empty_exported_target/fast
 
 # Help Target
@@ -207,6 +207,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jalil/catkin_ws3/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /root/kinect_for_eurobot/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

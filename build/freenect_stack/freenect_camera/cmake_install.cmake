@@ -1,8 +1,8 @@
-# Install script for directory: /home/jalil/catkin_ws3/src/freenect_stack/freenect_camera
+# Install script for directory: /root/kinect_for_eurobot/src/freenect_stack/freenect_camera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,34 +38,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/freenect_camera" TYPE FILE FILES "/home/jalil/catkin_ws3/devel/include/freenect_camera/FreenectConfig.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/freenect_camera" TYPE FILE FILES "/root/kinect_for_eurobot/devel/include/freenect_camera/FreenectConfig.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/freenect_camera" TYPE FILE FILES "/home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/__init__.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/freenect_camera" TYPE FILE FILES "/root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/__init__.py")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  execute_process(COMMAND "/usr/bin/python3" -m compileall "/home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/cfg")
+  execute_process(COMMAND "/usr/bin/python3" -m compileall "/root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/freenect_camera" TYPE DIRECTORY FILES "/home/jalil/catkin_ws3/devel/lib/python3/dist-packages/freenect_camera/cfg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/python3/dist-packages/freenect_camera" TYPE DIRECTORY FILES "/root/kinect_for_eurobot/devel/lib/python3/dist-packages/freenect_camera/cfg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jalil/catkin_ws3/build/freenect_stack/freenect_camera/catkin_generated/installspace/freenect_camera.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/kinect_for_eurobot/build/freenect_stack/freenect_camera/catkin_generated/installspace/freenect_camera.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera/cmake" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/freenect_stack/freenect_camera/catkin_generated/installspace/freenect_cameraConfig.cmake"
-    "/home/jalil/catkin_ws3/build/freenect_stack/freenect_camera/catkin_generated/installspace/freenect_cameraConfig-version.cmake"
+    "/root/kinect_for_eurobot/build/freenect_stack/freenect_camera/catkin_generated/installspace/freenect_cameraConfig.cmake"
+    "/root/kinect_for_eurobot/build/freenect_stack/freenect_camera/catkin_generated/installspace/freenect_cameraConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/root/kinect_for_eurobot/src/freenect_stack/freenect_camera/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xmainx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,12 +75,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xmainx" OR NOT CMAKE_INSTALL_COMPONE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/freenect_camera/freenect_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/freenect_camera" TYPE EXECUTABLE FILES "/home/jalil/catkin_ws3/devel/lib/freenect_camera/freenect_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/freenect_camera" TYPE EXECUTABLE FILES "/root/kinect_for_eurobot/devel/lib/freenect_camera/freenect_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/freenect_camera/freenect_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/freenect_camera/freenect_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/freenect_camera/freenect_node"
-         OLD_RPATH "/opt/ros/noetic/lib:/usr/local/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/freenect_camera/freenect_node")
@@ -95,12 +95,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfreenect_nodelet.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/jalil/catkin_ws3/devel/lib/libfreenect_nodelet.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/root/kinect_for_eurobot/devel/lib/libfreenect_nodelet.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfreenect_nodelet.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfreenect_nodelet.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfreenect_nodelet.so"
-         OLD_RPATH "/opt/ros/noetic/lib:/usr/local/lib:"
+         OLD_RPATH "/opt/ros/noetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libfreenect_nodelet.so")
@@ -112,6 +112,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/freenect_nodelets.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/freenect_camera" TYPE FILE FILES "/root/kinect_for_eurobot/src/freenect_stack/freenect_camera/freenect_nodelets.xml")
 endif()
 

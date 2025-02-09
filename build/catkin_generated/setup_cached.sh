@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/jalil/catkin_ws3/build'
+export PWD='/root/kinect_for_eurobot/build'

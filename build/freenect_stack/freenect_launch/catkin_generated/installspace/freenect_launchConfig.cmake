@@ -67,14 +67,14 @@ set(freenect_launch_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(freenect_launch_SOURCE_PREFIX /home/jalil/catkin_ws3/src/freenect_stack/freenect_launch)
-  set(freenect_launch_DEVEL_PREFIX /home/jalil/catkin_ws3/devel)
+  set(freenect_launch_SOURCE_PREFIX /root/kinect_for_eurobot/src/freenect_stack/freenect_launch)
+  set(freenect_launch_DEVEL_PREFIX /root/kinect_for_eurobot/devel)
   set(freenect_launch_INSTALL_PREFIX "")
   set(freenect_launch_PREFIX ${freenect_launch_DEVEL_PREFIX})
 else()
   set(freenect_launch_SOURCE_PREFIX "")
   set(freenect_launch_DEVEL_PREFIX "")
-  set(freenect_launch_INSTALL_PREFIX /home/jalil/catkin_ws3/install)
+  set(freenect_launch_INSTALL_PREFIX /root/kinect_for_eurobot/install)
   set(freenect_launch_PREFIX ${freenect_launch_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jalil/catkin_ws3/install/lib;/home/jalil/catkin_ws3/devel/lib;/home/jalil/catkin_ws2/devel/lib;/home/jalil/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /root/kinect_for_eurobot/install/lib;/root/kinect_for_eurobot/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

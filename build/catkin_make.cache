@@ -1,2 +1,2 @@
 aruco_detector:aruco_image:freenect_stack/freenect_camera:freenect_stack/freenect_launch:freenect_stack/freenect_stack
--DCATKIN_DEVEL_PREFIX=/home/jalil/catkin_ws3/devel -DCMAKE_INSTALL_PREFIX=/home/jalil/catkin_ws3/install -G Unix Makefiles
+-DCATKIN_DEVEL_PREFIX=/root/kinect_for_eurobot/devel -DCMAKE_INSTALL_PREFIX=/root/kinect_for_eurobot/install -G Unix Makefiles

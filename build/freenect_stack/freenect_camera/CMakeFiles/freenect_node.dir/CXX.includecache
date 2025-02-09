@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
-ros/ros.h
--
-nodelet/loader.h
--
-
 /opt/ros/noetic/include/nodelet/loader.h
 nodeletdecl.h
 /opt/ros/noetic/include/nodelet/nodeletdecl.h
@@ -690,5 +684,11 @@ string
 vector
 -
 time.h
+-
+
+/root/kinect_for_eurobot/src/freenect_stack/freenect_camera/src/nodes/freenect_node.cpp
+ros/ros.h
+-
+nodelet/loader.h
 -
 

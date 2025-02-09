@@ -1,4 +1,4 @@
-prefix=/home/jalil/catkin_ws3/install
+prefix=/root/kinect_for_eurobot/install
 
 Name: freenect_launch
 Description: Description of freenect_launch

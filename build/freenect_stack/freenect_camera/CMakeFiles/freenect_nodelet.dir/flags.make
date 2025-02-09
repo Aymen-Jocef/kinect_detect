@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"freenect_camera\" -Dfreenect_nodelet_EXPORTS
 
-CXX_INCLUDES = -I/home/jalil/catkin_ws3/devel/include -I/home/jalil/catkin_ws3/src/freenect_stack/freenect_camera/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/cmake/cfgbuild.cmake -I/usr/local/include/libfreenect -I/usr/include/libusb-1.0 
+CXX_INCLUDES = -I/root/kinect_for_eurobot/devel/include -I/root/kinect_for_eurobot/src/freenect_stack/freenect_camera/include -I/opt/ros/noetic/include -I/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/cmake/cfgbuild.cmake -I/usr/include/libusb-1.0 
 

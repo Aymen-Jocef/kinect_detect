@@ -1,8 +1,8 @@
-# Install script for directory: /home/jalil/catkin_ws3/src/aruco_detector
+# Install script for directory: /root/kinect_for_eurobot/src/aruco_detector
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/jalil/catkin_ws3/install")
+  set(CMAKE_INSTALL_PREFIX "/root/kinect_for_eurobot/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,21 +38,21 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jalil/catkin_ws3/build/aruco_detector/catkin_generated/installspace/aruco_detector.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/root/kinect_for_eurobot/build/aruco_detector/catkin_generated/installspace/aruco_detector.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_detector/cmake" TYPE FILE FILES
-    "/home/jalil/catkin_ws3/build/aruco_detector/catkin_generated/installspace/aruco_detectorConfig.cmake"
-    "/home/jalil/catkin_ws3/build/aruco_detector/catkin_generated/installspace/aruco_detectorConfig-version.cmake"
+    "/root/kinect_for_eurobot/build/aruco_detector/catkin_generated/installspace/aruco_detectorConfig.cmake"
+    "/root/kinect_for_eurobot/build/aruco_detector/catkin_generated/installspace/aruco_detectorConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_detector" TYPE FILE FILES "/home/jalil/catkin_ws3/src/aruco_detector/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/aruco_detector" TYPE FILE FILES "/root/kinect_for_eurobot/src/aruco_detector/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/aruco_detector" TYPE PROGRAM FILES "/home/jalil/catkin_ws3/build/aruco_detector/catkin_generated/installspace/aruco_detector.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/aruco_detector" TYPE PROGRAM FILES "/root/kinect_for_eurobot/build/aruco_detector/catkin_generated/installspace/aruco_detector.py")
 endif()
 
